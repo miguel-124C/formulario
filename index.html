@@ -1,0 +1,41 @@
+<!DOCTYpE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="flex-container">            
+            <div class="form-img">
+                <div class="img-container">
+                    <Div class="image">
+                        <img src="image/icono-email.png">
+                    </Div>
+                </div>
+            </div>
+            <form class="form">
+                <div class="form__section maildiv">
+                    <input type="email" class="form__input mail" placeholder="Escriba su mail">
+                    <p class="mensaje-error "></p>
+                </div>
+                <div class="form__section businessdiv">
+                    <input type="text" class="form__input business" placeholder="Escriba el asunto">
+                    <p class="mensaje-error "></p>
+                </div>
+                <div class="form__section menssagediv">
+                    <textarea class="form__input textarea menssage"   placeholder="Escriba el mensaje para Miguel" ></textarea>
+                    <p class="mensaje-error "></p>
+                </div>
+                <div class="form__section submitdiv">
+                    <input type="submit" class="form__input  submit" >
+                </div>
+                <p class="mensaje-listo"></p>
+            </form>
+        </div>
+
+        <script src="javascript/Codigo.js"></script>
+    </body>
+</html>
